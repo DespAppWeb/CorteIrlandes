@@ -1,0 +1,255 @@
+/* Estilos para el encabezado */
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #76cfe3;
+  padding: 0 15px; /* Añade un espacio interno a los lados del encabezado */
+}
+
+/* loding de js */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#loader img {
+  width: 250px; /* Ajusta el tamaño del GIF según tus necesidades */
+  height: 250px;
+}
+/* Estilos para el logo */
+.logo {
+  width: 200px;
+  margin-left: 0;
+ 
+}
+
+.logo img {
+  
+  height: 200px;
+  width: 300px; /* Ajusta el ancho del logo para que se ajuste automáticamente */
+  max-width: 600px; /* Establece un ancho máximo para el logo */
+}
+
+/* Estilos para la barra de búsqueda */
+.search-bar {
+  margin: 50px 0; /* Agrega espacio superior e inferior */
+  position: relative; /* Añade posición relativa para posicionar el ícono */
+}
+
+.search-bar input {
+ 
+  width: 500px; /* Ajusta el ancho de la barra de búsqueda según tus necesidades */
+  height: 30px; /* Ajusta la altura de la barra de búsqueda según tus necesidades */
+  border-radius: 15px; /* Hace que la barra de búsqueda sea redonda */
+  padding: 15px; /* Ajusta el espacio interno de la barra de búsqueda según tus necesidades */
+  padding-right: 50px; /* Añade espacio a la derecha para el ícono */
+}
+
+
+/* Estilos para las imágenes de favoritos, login y carrito de compra */
+.icons {
+  display: flex;
+  align-items: center;
+  margin-right: 30px; /* Ajusta el margen derecho según tus necesidades */
+}
+
+.icons img {
+  width: 28px;
+  padding: auto;
+  margin-left: 10px; /* Ajusta el margen izquierdo según tus necesidades */
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Estilos para la segunda línea */
+.lis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #76cfe3;
+  color: #f9f9f9;
+  position: sticky;
+  z-index: 998;
+  
+ 
+}
+
+
+/* Estilos para las secciones desplegables */
+.dropdown {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  margin-bottom: px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 200px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333333;
+}
+.dropdown-content  a {
+  text-decoration: none;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  padding:15px 16px;
+  text-decoration: none;
+  color: #333333;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #f2f2f2;
+}
+
+.img_footer {
+  width: 300px; /* Define el ancho deseado para la imagen */
+  border-radius: 5px; /* Aplica bordes redondeados a la imagen */
+}
+
+
+.carousel-inner  img {
+  
+height: 500px;
+width: 100%;
+
+}
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:none;
+  background-color: #76cfe3;
+  color: #090909;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+.carousel-caption h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #f9f9f9;
+}
+
+
+/*
+h2.titulo-seccion {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}*/
+
+
+.newsletter {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  margin-top: 40px;
+}
+
+.newsletter-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newsletter-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background-color: #555;
+}
+
+
+#bcomp :hover{
+ background-color:  #76cfe3;
+ border-radius: 3px;
+ transform: translate(5px);
+}
+

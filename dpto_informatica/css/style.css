@@ -1,0 +1,267 @@
+/* css principal */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.breadcrumb-item:first-child {
+    margin-left: 30px;
+}
+
+.my-card {
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+/* de más */
+
+/* STILOS GLOBALES -------------------------------------------------- */
+/* Relleno por debajo del pie de página y texto del cuerpo más claro */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    color: #5a5a5a;
+    background-color: whitesmoke;
+}
+
+/* PERSONALIZACIÓN DEL CARRUSEL -------------------------------------------------- */
+
+/* Clase base del carrusel */
+
+
+
+/* CONTENIDO DE MARKETING -------------------------------------------------- */
+
+/* Alineación centrada del texto en las tres columnas debajo del carrusel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+/* Separa las cabeceras de marketing */
+.featurette-divider {
+    margin: 5rem 0;
+    /* Espacia más el <hr> de Bootstrap */
+}
+
+/* Estiliza las cabeceras de marketing */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.05rem;
+}
+
+/* CSS RESPONSIVO -------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+    /* Aumenta el tamaño del contenido del carrusel */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+/* ******************************* NO TOCAR LO DE ARRIBA *********************** */
+
+/* nav departamentos */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-fluid{
+    background-color: #ffa333;
+}
+
+.nav-link:hover{
+    background-color: #FF846A;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+/* 6 productos */
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article{
+    margin: 0.5%;
+    flex-basis: 32%;
+}
+
+article > img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ci_in_colores-fav > img{
+    margin-top: 5px;
+    width: 30px;
+    height: 20px;
+    position: relative;
+}
+
+.ci_in_colores-fav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.ci_in_colores-fav > ul{
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ci_in_colores-fav > ul > li:not(.ci_in_numero){
+    padding: 0px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: none;
+    height:  90%;
+    width:  8%;
+}
+
+.ci_in_modelo, .ci_in_precio, .ci_in_descripcion{
+    text-align: center;
+    padding: 3px;
+}
+
+.ci_in_modelo, .ci_in_precio {
+    color: blue;
+    font-weight:900;
+}
+
+li.ci_in_negro{
+    background-color: black;
+    border-radius: 100%;
+}
+
+li.ci_in_azul{
+    background-color: blue;
+    border-radius: 100%;
+}
+
+li.ci_in_verde{
+    background-color: green;
+    border-radius: 100%;
+}
+
+li.ci_in_negro_rosa {
+    background: linear-gradient(to right, black 50%, pink 50%);
+    border-radius: 100%;
+}
+
+li.ci_in_rojo{
+    background-color: red;
+    border-radius: 100%;
+}
+
+li.ci_in_cian{
+    background-color: rgb(0, 255, 255);
+    border-radius: 100%;
+}
+
+li.ci_in_morado{
+    background-color: rgb(166, 0, 255);
+    border-radius: 100%;
+}
+
+li.ci_in_amarillo{
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+li.ci_in_dorado{
+    background-color: rgb(212, 175, 55);
+    border-radius: 100%;
+}
+
+li.ci_in_numero{
+    height: 20px;
+    width: 80px;
+    margin: 5px;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+article:hover{
+    box-shadow: 0px 0px 5px gray;
+    background-color: #ffe8cd;
+}
+
+article .ci_in_colores-fav ul li:not(.ci_in_numero) {
+    display: none;
+}
+
+article:hover .ci_in_colores-fav ul li.ci_in_numero {
+    display: none;
+}
+
+article:hover .ci_in_colores-fav ul li.ci_in_numero:hover {
+    display: none;
+    display: block;
+}
+
+article:hover .ci_in_colores-fav ul li:not(.ci_in_numero) {
+    display: flex;
+}
+
+@media screen and (max-width: 3900px) {
+    main{
+        flex-direction: column;
+    }
+}

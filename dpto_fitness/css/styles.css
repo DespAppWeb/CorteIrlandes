@@ -1,0 +1,136 @@
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: #ffe8cd;
+    flex-basis: 100%;
+    font-size: 300%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0px;
+}
+p.ci_seccion_dpto_descripcion{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 5%;
+}
+body.departamento_seccion{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+section.departamento_seccion{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+main.departamento_seccion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis:80%;
+    justify-content: center;
+}
+main.departamento_seccion > a{
+    flex-basis: 30%;
+    margin: 1%;
+    text-decoration: none;
+}
+main.departamento_seccion > a > article{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 8px grey;
+}
+main.departamento_seccion > a > article:hover{
+    box-shadow: 0px 0px 20px #ffa333;
+
+}
+main.departamento_seccion > a > article > img{
+    width: 95%;
+    height: auto;
+    margin: 1%;
+}
+main.departamento_seccion > a > article > .datos-productos >.modelo{
+    color: black;
+    font-weight: 900;
+    font-size: 130%;
+}
+main.departamento_seccion > a > article > .datos-productos >.precio{
+    color: black;
+    font-weight: 900;
+    font-size: 130%;
+}
+main.departamento_seccion > a > article > .datos-productos >.descripcion{
+    font-size: 100%;
+    color: grey;
+}
+main.departamento_seccion > a > article > .datos-productos >.datos-productos{
+    text-align: center;
+}
+
+section.departamento_seccion_paginacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    flex-basis: 100%;
+}
+.departamento_seccion_paginacion > ul{
+    list-style: none;
+    display: flex;
+    flex-basis: 5%;
+}
+.departamento_seccion_paginacion > ul > li{
+    flex-basis: 25%;
+    font-size: 130%;
+    color: blue;
+    font-weight: 900;
+}
+.departamento_seccion_paginacion > ul > li>a{
+    text-decoration: none;
+    color: black;
+}
+.departamento_seccion_paginacion > ul > li>a:hover{
+    color: #ffa333;
+    font-size: 15px;
+}
+.departamento_seccion_paginacion > ul > li.activo{
+    color: #ffa333;
+}
+@media screen and (max-width: 480px) {
+    main.departamento_seccion{
+        flex-basis: 100%;
+    }
+    main.departamento_seccion > a{
+        flex-basis: 100%;   
+        margin: 1%;
+    }
+}
+@media screen and (max-width: 720px) and (min-width: 481px) {
+    main.departamento_seccion{
+        flex-basis: 100%;
+    }
+    main.departamento_seccion > a{
+        flex-basis: 45%;   
+        margin: 1%;
+    }
+
+    .modelo{
+        font-size: 110%;
+    }
+    .precio{
+        font-size: 110%;
+    }
+    .descripcion{
+        font-size: 80%;
+    }
+}
