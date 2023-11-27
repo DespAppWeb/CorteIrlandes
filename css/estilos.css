@@ -457,7 +457,7 @@ p.ci_seccion_dpto_descripcion{
     text-align: center;
     margin-top: 5%;
 }
-body.departamento_seccion{
+main.main_departamento_seccion{
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-wrap: wrap;
