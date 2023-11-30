@@ -1,37 +1,13 @@
-*{
-    font-family: 'Open Sans', sans-serif;
+h2{
+    background:none;
+    color:#d27300;
+}
+ol.breadcrumb li.breadcrumb-item a{
+    color: #d27300;
 }
 
-
-.ci_img_escalar{
-   transition: transform .5s ease-in-out;
-   transition-timing-function:ease-in-out;
-   transition-duration: .5s;
-}
-
-.ci_img_escalar:hover{
-    transform: scale(1.2);
-}
-
-.ci_text_principal{
-    color:#d27300 !important;
-}
-
-
-.ci_contenedor_imagen{
-    overflow: hidden;
-}
-
-
-/*botones */
-
-.ci_btn_seccion{
-    padding: 0.6em;
-    color: white;
-    background-color: #d27300;
-}
-
-.ci_btn_seccion:hover{
-    color: white;
-    background-color: #af5700;
+.departamento_seccion article{
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;
 }
