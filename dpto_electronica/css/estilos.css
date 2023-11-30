@@ -9,4 +9,5 @@ ol.breadcrumb li.breadcrumb-item a{
 .departamento_seccion article{
     padding: 25px;
     box-sizing: border-box;
+    text-align: center;
 }
