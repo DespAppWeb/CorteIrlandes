@@ -616,9 +616,21 @@ section.departamento_seccion_paginacion {
   border-radius: 5px;
 }
 
+.ci_btn_seccion_in .aindexda:hover{
+  color: white;
+  background-color: #af5700;
+  text-decoration: none;
+}
+
 .ci_btn_seccion_in:hover{
   color: white;
   background-color: #af5700;
+  text-decoration: none;
+}
+
+.aindexda{
+  text-decoration: none;
+  color: white;
 }
 
 /* .carousel-control-prev-icon {
