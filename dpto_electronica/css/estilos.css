@@ -11,3 +11,10 @@ ol.breadcrumb li.breadcrumb-item a{
     box-sizing: border-box;
     text-align: center;
 }
+
+.container .carousel{
+    margin-bottom: 0;
+}
+.container .carousel-item{
+    height:auto;
+}
