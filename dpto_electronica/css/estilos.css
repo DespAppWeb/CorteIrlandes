@@ -2,10 +2,14 @@ h2{
     background:none;
     color:#d27300;
 }
+
 ol.breadcrumb li.breadcrumb-item a{
     color: #d27300;
 }
 
+a:link{
+    color: #d27300;
+}
 .departamento_seccion article{
     padding: 25px;
     box-sizing: border-box;
