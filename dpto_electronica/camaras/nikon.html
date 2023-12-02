@@ -13,14 +13,16 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/css/estilos.css">
-    <link rel="stylesheet" href="/dpto_electronica/css/estilos.css">
+        <link rel="stylesheet" href="/dpto_electronica/css/estilos.css">
+    <link rel="stylesheet" href="/dpto_electronica/css/fontawesome.min.css">
 </head>
+
 <body>
     <!-- Encabezado -->
     <div class="container-fluid">
         <header class="navbar navbar-expand-lg navbar-light custom-bg-color">
             <!-- Logo - Es un svg, no una imagen -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100"
                     height="100" viewBox="0 0 839 1025"> <!-- Cambiar tamaño aquí -->
                     <path class="cls-1"
@@ -42,7 +44,7 @@
                 <ul class="navbar-nav ml-auto">
                     <!-- Menú desplegable -->
                     <li class="nav-item dropdown d-none d-lg-block">
-                        <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="/" id="searchDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                                 class="bi bi-list" viewBox="0 0 16 16">
@@ -66,13 +68,13 @@
                             <a class="dropdown-item custom-dropdown-itemUno" href="/dpto_coches/index.html">Coches</a>
                             <!-- Otros datos de interés -->
                             <h6 class="dropdown-header">Otros datos de interés</h6>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/aboutus.html">Sobre
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Sobre
                                 Nosotros</a>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/contactus.html">Contáctanos</a>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/ayuda.html">Ayuda</a>
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Contáctanos</a>
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Ayuda</a>
                             <!-- Newsletter -->
                             <h6 class="dropdown-header">Suscríbete a nuestra newsletter</h6>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/newsletter.html">Newsletter</a>
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Newsletter</a>
                         </div>
                     </li>
 
@@ -92,12 +94,12 @@
                         <a class="dropdown-item custom-dropdown-itemUno" href="/dpto_coches/index.html">Coches</a>
                         <!-- Otros datos de interés -->
                         <h6 class="dropdown-header">Otros datos de interés</h6>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/aboutus.html">Sobre Nosotros</a>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/contactus.html">Contáctanos</a>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/ayuda.html">Ayuda</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Sobre Nosotros</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Contáctanos</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Ayuda</a>
                         <!-- Newsletter -->
                         <h6 class="dropdown-header">Suscríbete a nuestra newsletter</h6>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/newsletter.html">Newsletter</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Newsletter</a>
                         <hr>
                     </div>
 
@@ -149,7 +151,8 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Home</a></li>
             <li class="breadcrumb-item"> <a href="/dpto_electronica/index.html"> Electrónica</a></li>
-            <li class="breadcrumb-item " aria-current="page"> <a href="/dpto_electronica/fotografia.html">Fotografía</a></li>
+            <li class="breadcrumb-item " aria-current="page"> <a href="/dpto_electronica/fotografia.html">Fotografía</a>
+            </li>
             <li class="breadcrumb-item active" aria-current="page">Nikon</a></li>
         </ol>
     </nav>
@@ -160,44 +163,16 @@
                 <div class="col-lg-6">
                     <div class="border rounded-4 mb-3 d-flex justify-content-center ">
                         <img style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit"
-                            src="/dpto_electronica/images/camaras/nikon/nikon.jpg" /> <!-- Imagen principal del producto-->
+                            src="../images/camaras/nikon/nikon1.jpg" />
+                        <!-- Imagen principal del producto-->
                     </div>
                     <div class="d-flex justify-content-center mb-3">
-                        <!-- Imagenes de producto, son las imagenes que estan debajo de la principal-->
-                        <!--
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                    -->
-                    <!--El carrusel-->
-                    <div id="carouselExampleControls" class="carousel slide col-6 border-secondary" data-ride="carousel">
-                        <div class="carousel-inner">
-                        <div class="carousel-item active col-3">
-                            <img class="d-block w-100" src="/dpto_electronica/images/camaras/nikon/nikon2.jpg" alt="First slide">
-                        </div>
-                        <div class="carousel-item col-3">
-                            <img class="d-block w-100" src="/dpto_electronica/images/camaras/nikon/nikon3.jpg" alt="Second slide">
-                        </div>
-                        <div class="carousel-item col-3">
-                            <img class="d-block w-100" src="/dpto_electronica/images/camaras/nikon/nikon4.jpg" alt="Third slide">
-                        </div>
-                        <div class="carousel-item col-3">
-                            <img class="d-block w-100" src="/dpto_electronica/images/camaras/nikon/nikon5.jpg" alt="Third slide">
-                        </div>
-                        <div class="carousel-item col-3">
-                            <img class="d-block w-100" src="/dpto_electronica/images/camaras/nikon/nikon6.jpg" alt="Third slide">
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                        </a>
-                    </div> <!--fin de carrusel-->
+                        <!-- Imagenes de producto, son las imagenes que est/dpto_electronica/images/fig_coments.pngpal-->
+                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/nikon/nikon2.jpg" />
+                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/nikon/nikon3.jpg" />
+                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/nikon/nikon4.jpg" />
+                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/nikon/nikon5.jpg" />
+                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/nikon/nikon6.jpg" />
 
 
                     </div>
@@ -206,35 +181,42 @@
                 <main class="col-lg-6">
                     <div class="ps-lg-3">
                         <h4 class="title text-dark">
-                            Nombre producto
+                            Nikon Cámara Z FC y 16-50 mm
                         </h4>
 
                         <div class="mb-3">
-                            <span class="h5">70.00€</span>
-                            <span class="text-muted">/por objeto</span>
+                            <span class="h5">1.101.00€</span>
+
                         </div>
                         <!-- Descripcion de producto -->
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ipsum dolorem provident et
-                            quibusdam qui ad, dolorum, maxime odit placeat voluptate laborum nemo eveniet ratione
-                            cupiditate suscipit esse! Rem, labore.
+                            La Z fc combina el diseño clásico de las cámaras Nikon con la innovadora tecnología de la
+                            serie Z para obtener una calidad de imagen excepcional y un estilo puro y sin artificios.
+                        </p>
+                           <p>
+                            
+                            Puede fotografiar cualquier cosa y en cualquier lugar, desde imágenes estáticas hasta vídeos
+                            y vlogs. Impulse su creatividad hacia el futuro con la cámara mirrorless de formato DX
+                            ligera que pone en sus manos la capacidad de capturar lo emblemático.
+
+
 
                         </p>
                         <!-- Detalle de productos, lista-->
-                            <p>Caracteristicas:</p>
+                        <p>Caracteristicas:</p>
 
                         <div class="row">
                             <dt class="col-3">Tipo:</dt>
-                            <dd class="col-9">Normal</dd>
+                            <dd class="col-9">Automático</dd>
 
                             <dt class="col-3">Color</dt>
-                            <dd class="col-9">Marron</dd>
+                            <dd class="col-9">Negro</dd>
 
-                            <dt class="col-3">Material</dt>
-                            <dd class="col-9">Algodon</dd>
+                            <dt class="col-3">Resolución máxima</dt>
+                            <dd class="col-9">1,3 MP</dd>
 
                             <dt class="col-3">Marca</dt>
-                            <dd class="col-9">Reebook</dd>
+                            <dd class="col-9">Nikon</dd>
                         </div>
 
                         <!-- Boton de cantidad, se pueden añadir 2 botones más(mb-4)-->
@@ -242,16 +224,16 @@
                             <div class="col-md-4 col-6 mb-3">
                                 <label class="mb-2 d-block">Cantidad</label>
                                 <div class="input-group mb-3 btn-cantidad">
-                                    <button class="btn btn-white border border-secondary px-3 btn-cantidadmas" type="button"
-                                        id="button-addon1">
+                                    <button class="btn btn-white border border-secondary px-3 btn-cantidadmas"
+                                        type="button" id="button-addon1">
                                         -
                                     </button>
 
                                     <input type="text" class="form-control text-center border border-secondary"
-                                        placeholder="14" aria-label="Example text with button addon"
+                                        placeholder="1" aria-label="Example text with button addon"
                                         aria-describedby="button-addon1" />
-                                    <button class="btn btn-white border border-secondary px-3 btn-cantidadmas" type="button"
-                                        id="button-addon2">
+                                    <button class="btn btn-white border border-secondary px-3 btn-cantidadmas"
+                                        type="button" id="button-addon2">
                                         + </button>
                                 </div>
                             </div>
@@ -285,11 +267,7 @@
                         <img src="/dpto_electronica/images/camaras/Kodak/kodak1.jpg" alt="Kodak" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-lg-2 col-md-3 col-xs-4 ">
-                    <a class="thumbnail" href="/dpto_electronica/camaras/nikon.html">
-                        <img src="/dpto_electronica/images/camaras/nikon/nikon1.jpg" alt="nikon" class="img-fluid">
-                    </a>
-                </div>
+              
                 <div class="col-lg-2 col-md-3 col-xs-4">
                     <a class="thumbnail" href="/dpto_electronica/camaras/fuji.html">
                         <img src="/dpto_electronica/images/camaras/Fujifilm/fuji_instax1.jpg" alt="" class="img-fluid">
@@ -312,24 +290,20 @@
                         <div class="card text-dark">
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3"
-                                        src="./img/mueble_main.jpeg" alt="avatar"
-                                        width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3" src="/dpto_electronica/images/fig_coments.png"
+                                        alt="avatar" width="60" height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Maggie Marsh</h6>
                                         <div class="d-flex align-items-center mb-3">
                                             <p class="mb-0">
                                                 Mayo 07, 2021
                                             </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id cumque
-                                            quibusdam architecto consequatur alias ipsum commodi obcaecati, a hic.
-                                        </p>
+                                            La calidad de fotos muy buena. Su estética mejor. La tapa de la batería y tarjeta impropia de esta cámara por su debilidad     </p>
                                     </div>
                                 </div>
                             </div>
@@ -338,23 +312,20 @@
 
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3"
-                                        src="./img/mueble_main.jpeg" alt="avatar"
-                                        width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3" src="/dpto_electronica/images/fig_coments.png"
+                                        alt="avatar" width="60" height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Lara Stewart</h6>
                                         <div class="d-flex align-items-center mb-3">
                                             <p class="mb-0">
                                                 Mayo 15, 2021
                                             </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="text-success"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-danger"><i class="fas fa-heart ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                            <a href="#" class="link-danger"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id cumque
-                                            quibusdam architecto consequatur alias ipsum commodi obcaecati, a hic.
+                                            Esta es una nueva cámara DX (APS-C) sin espejo de Nikon (creo que se lanzó en el Reino Unido hace 5 días) y parece que soy la primera persona en opinar sobre ella en Amazon. Solo he tenido la cámara durante unas horas y no he tenido la oportunidad de probarla realmente, excepto algunas tomas de prueba rápidas y sencillas que muestran que el EVF es excelente, el enfoque automático es bueno y la reducción de vibraciones es muy buena.
                                         </p>
                                     </div>
                                 </div>
@@ -364,24 +335,22 @@
 
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3"
-                                        src="./img/mueble_main.jpeg" alt="avatar"
-                                        width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3" src="/dpto_electronica/images/fig_coments.png"
+                                        alt="avatar" width="60" height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Alexa Bennett</h6>
                                         <div class="d-flex align-items-center mb-3">
                                             <p class="mb-0">
                                                 Mayo 24, 2021
                                             </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id
-                                            cumque quibusdam architecto consequatur alias ipsum commodi obcaecati, a
-                                            hic.
+                                            Llevaba mucho tiempo pensando en comprar la NIKON Z fc, porque hasta ahora siempre he hecho fotos con Olympus y Panasonic.
+                                            Así que es la primera NIKON que tengo.
+                                            Cuando se presentó la cámara hace unos dos años, me enamoré del dispositivo de inmediato, pero no estaba seguro de comprarlo.
                                         </p>
                                     </div>
                                 </div>
@@ -391,24 +360,21 @@
 
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3"
-                                        src="./img/mueble_main.jpeg" alt="avatar"
-                                        width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3" src="/dpto_electronica/images/fig_coments.png"
+                                        alt="avatar" width="60" height="60" />
                                     <div>
-                                        <h6 class="fw-bold mb-1">Betty Walker</h6>
+                                        <h6 class="fw-bold mb-1"> Walker</h6>
                                         <div class="d-flex align-items-center mb-3">
                                             <p class="mb-0">
                                                 Mayo 30, 2021
                                             </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id
-                                            cumque quibusdam architecto consequatur alias ipsum commodi obcaecati, a
-                                            hic.
+                                            Lo compré por su rendimiento, pero también por su proximidad a las cámaras de cine. ¡Hace el trabajo muy, muy bien! Es liviano, práctico de transportar, te permite hacer excelentes vlogs e imágenes hermosas.
+                                            Lo recomiendo al 100%
                                         </p>
                                     </div>
                                 </div>
@@ -424,7 +390,7 @@
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 border-top">
             <!--SI QUIERES PONER un margin arriba del footer es solo poner (mt-5) al final de la clase-->
             <div class="ci_footer1">
-                <h5>SOPORTE:</h5>
+                <h5>SOPORTE:</h5>   
                 <ul class="nav flex-column">
                     <div id="ci_CONTACTO">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">CONTACTO</a></li>

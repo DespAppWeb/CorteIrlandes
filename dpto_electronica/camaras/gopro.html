@@ -13,14 +13,16 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/css/estilos.css">
-    <link rel="stylesheet" href="/dpto_electronica/css/estilos.css">
+        <link rel="stylesheet" href="/dpto_electronica/css/estilos.css">
+    <link rel="stylesheet" href="/dpto_electronica/css/fontawesome.min.css">
 </head>
+
 <body>
     <!-- Encabezado -->
     <div class="container-fluid">
         <header class="navbar navbar-expand-lg navbar-light custom-bg-color">
             <!-- Logo - Es un svg, no una imagen -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100"
                     height="100" viewBox="0 0 839 1025"> <!-- Cambiar tamaño aquí -->
                     <path class="cls-1"
@@ -42,7 +44,7 @@
                 <ul class="navbar-nav ml-auto">
                     <!-- Menú desplegable -->
                     <li class="nav-item dropdown d-none d-lg-block">
-                        <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="/" id="searchDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                                 class="bi bi-list" viewBox="0 0 16 16">
@@ -66,13 +68,13 @@
                             <a class="dropdown-item custom-dropdown-itemUno" href="/dpto_coches/index.html">Coches</a>
                             <!-- Otros datos de interés -->
                             <h6 class="dropdown-header">Otros datos de interés</h6>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/aboutus.html">Sobre
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Sobre
                                 Nosotros</a>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/contactus.html">Contáctanos</a>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/ayuda.html">Ayuda</a>
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Contáctanos</a>
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Ayuda</a>
                             <!-- Newsletter -->
                             <h6 class="dropdown-header">Suscríbete a nuestra newsletter</h6>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/newsletter.html">Newsletter</a>
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Newsletter</a>
                         </div>
                     </li>
 
@@ -92,12 +94,12 @@
                         <a class="dropdown-item custom-dropdown-itemUno" href="/dpto_coches/index.html">Coches</a>
                         <!-- Otros datos de interés -->
                         <h6 class="dropdown-header">Otros datos de interés</h6>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/aboutus.html">Sobre Nosotros</a>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/contactus.html">Contáctanos</a>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/ayuda.html">Ayuda</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Sobre Nosotros</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Contáctanos</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Ayuda</a>
                         <!-- Newsletter -->
                         <h6 class="dropdown-header">Suscríbete a nuestra newsletter</h6>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/newsletter.html">Newsletter</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Newsletter</a>
                         <hr>
                     </div>
 
@@ -149,8 +151,9 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Home</a></li>
             <li class="breadcrumb-item"> <a href="/dpto_electronica/index.html"> Electrónica</a></li>
-            <li class="breadcrumb-item " aria-current="page"> <a href="/dpto_electronica/fotografia.html">Fotografía</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Fuji</a></li>
+            <li class="breadcrumb-item " aria-current="page"> <a href="/dpto_electronica/fotografia.html">Fotografía</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">GoPro</a></li>
         </ol>
     </nav>
     <!-- Fin migas de pan -->
@@ -160,43 +163,16 @@
                 <div class="col-lg-6">
                     <div class="border rounded-4 mb-3 d-flex justify-content-center ">
                         <img style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit"
-                            src="/dpto_electronica/images/camaras/GoPro/go_pro1.jpg" /> <!-- Imagen principal del producto-->
+                            src="/dpto_electronica/images/camaras/GoPro/go_pro1.jpg" />
+                        <!-- Imagen principal del producto-->
                     </div>
                     <div class="d-flex justify-content-center mb-3">
-                        <!-- Imagenes de producto, son las imagenes que estan debajo de la principal-->
-                        <!--
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                    -->
-                        <!--El carrusel-->
-                        <div id="carouselExampleControls" class="carousel slide col-6 border-secondary"
-                            data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active col-3">
-                                    <img class="d-block w-100" src="/dpto_electronica/images/camaras/GoPro/go_pro2.jpg" alt="First slide">
-                                </div>
-                                <div class="carousel-item col-3">
-                                    <img class="d-block w-100" src="/dpto_electronica/images/camaras/GoPro/go_pro3.jpg" alt="Second slide">
-                                </div>
-                                <div class="carousel-item col-3">
-                                    <img class="d-block w-100" src="/dpto_electronica/images/camaras/GoPro/go_pro4.jpg" alt="Third slide">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-                                data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
-                                data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div> <!--fin de carrusel-->
-
+                        <!-- Imagenes de producto, son las imagenes que est/dpto_electronica/images/fig_coments.pngpal-->
+                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/GoPro/go_pro2.jpg" />
+                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/GoPro/go_pro3.jpg " />
+                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/GoPro/go_pro4.jpg" />
+                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/GoPro/go_pro5.jpg" />
+                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/GoPro/go_pro6.jpg" />
 
                     </div>
                 </div>
@@ -204,35 +180,44 @@
                 <main class="col-lg-6">
                     <div class="ps-lg-3">
                         <h4 class="title text-dark">
-                            Nombre producto
+                            GoPro HERO11
                         </h4>
 
                         <div class="mb-3">
-                            <span class="h5">70.00€</span>
-                            <span class="text-muted">/por objeto</span>
+                            <span class="h5">349,00.00€</span>
                         </div>
                         <!-- Descripcion de producto -->
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ipsum dolorem provident et
-                            quibusdam qui ad, dolorum, maxime odit placeat voluptate laborum nemo eveniet ratione
-                            cupiditate suscipit esse! Rem, labore.
+                            Captura. Carga. Obtén un vídeo de momentos destacados automáticamente: Solo tienes que
+                            enchufar tu GoPro mientras está conectada a la red Wi-Fi local. Mientras se carga, el
+                            contenido se sube automáticamente a la nube y se usa para crear un increíble vídeo con
+                            música y efectos sincronizados. 
+                        </p>
+                            <p>
+                                
+                            Recibirás los vídeos automáticamente en tu teléfono, listos
+                            para compartir.
+                               Fotos y vídeos de alta resolución con alta velocidad de fotograma: El nuevo sensor de imagen
+                            de la HERO11 Black aumenta la resolución de las fotos hasta unos asombrosos 27 MP, a la vez
+                            que ofrece vídeos de 5,3K60 con un movimiento increíblemente fluido. También puedes extraer
+                            impresionantes imágenes de 24,7 MP de tus tomas favoritas mediante la aplicación GoPro Quik.
 
                         </p>
                         <!-- Detalle de productos, lista-->
                         <p>Caracteristicas:</p>
 
                         <div class="row">
-                            <dt class="col-3">Tipo:</dt>
-                            <dd class="col-9">Normal</dd>
+                            <dt class="col-3">Tamaño de pantalla:</dt>
+                            <dd class="col-9">1,4 Pulgadas</dd>
 
                             <dt class="col-3">Color</dt>
-                            <dd class="col-9">Marron</dd>
+                            <dd class="col-9">Negra</dd>
 
-                            <dt class="col-3">Material</dt>
-                            <dd class="col-9">Algodon</dd>
+                            <dt class="col-3">Distancia focal</dt>
+                            <dd class="col-9"> 15,1 Milímetros</dd>
 
-                            <dt class="col-3">Marca</dt>
-                            <dd class="col-9">Reebook</dd>
+                            <dt class="col-3">Resolución </dt>
+                            <dd class="col-9">1080p, 4K</dd>
                         </div>
 
                         <!-- Boton de cantidad, se pueden añadir 2 botones más(mb-4)-->
@@ -246,7 +231,7 @@
                                     </button>
 
                                     <input type="text" class="form-control text-center border border-secondary"
-                                        placeholder="14" aria-label="Example text with button addon"
+                                        placeholder="1" aria-label="Example text with button addon"
                                         aria-describedby="button-addon1" />
                                     <button class="btn btn-white border border-secondary px-3 btn-cantidadmas"
                                         type="button" id="button-addon2">
@@ -271,11 +256,6 @@
                 <div class="col-lg-2 col-md-3 col-xs-4 ">
                     <a class="thumbnail" href="/dpto_electronica/camaras/canon.html">
                         <img src="/dpto_electronica/images/camaras/Canon/Canon1.jpg" alt="Canon" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-3 col-xs-4">
-                    <a class="thumbnail" href="/dpto_electronica/camaras/gopro.html">
-                        <img src="/dpto_electronica/images/camaras/GoPro/go_pro1.jpg" alt="goPro" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-lg-2 col-md-3 col-xs-4">
@@ -310,7 +290,7 @@
                         <div class="card text-dark">
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="./img/mueble_main.jpeg"
+                                    <img class="rounded-circle shadow-1-strong me-3" src="/dpto_electronica/images/fig_coments.png"
                                         alt="avatar" width="60" height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Maggie Marsh</h6>
@@ -318,15 +298,12 @@
                                             <p class="mb-0">
                                                 Mayo 07, 2021
                                             </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id cumque
-                                            quibusdam architecto consequatur alias ipsum commodi obcaecati, a hic.
-                                        </p>
+                                            Desde el momento en que comencé a usarla, quedé impresionado por su versatilidad y capacidad para capturar momentos inolvidables de manera espectacular. </p>
                                     </div>
                                 </div>
                             </div>
@@ -335,7 +312,7 @@
 
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="./img/mueble_main.jpeg"
+                                    <img class="rounded-circle shadow-1-strong me-3" src="/dpto_electronica/images/fig_coments.png"
                                         alt="avatar" width="60" height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Lara Stewart</h6>
@@ -343,15 +320,12 @@
                                             <p class="mb-0">
                                                 Mayo 15, 2021
                                             </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="text-success"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-danger"><i class="fas fa-heart ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                            <a href="#" class="link-danger"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id cumque
-                                            quibusdam architecto consequatur alias ipsum commodi obcaecati, a hic.
-                                        </p>
+                                            Cámara que utilizo para Mtb, es un producto que por su sencillez es adecuado para según que deporte. El que no tenga pantalla casi es un plus, pues si vas sobre la bici, no hace falta. Puedes jugar con varios objetivos digitales y siempre hay uno adecuado para grabar en bici, sobretodo los grandes angulares que puedes tener una muy buena resolución de imagen.  </p>
                                     </div>
                                 </div>
                             </div>
@@ -360,7 +334,7 @@
 
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="./img/mueble_main.jpeg"
+                                    <img class="rounded-circle shadow-1-strong me-3" src="/dpto_electronica/images/fig_coments.png"
                                         alt="avatar" width="60" height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Alexa Bennett</h6>
@@ -368,45 +342,18 @@
                                             <p class="mb-0">
                                                 Mayo 24, 2021
                                             </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id
-                                            cumque quibusdam architecto consequatur alias ipsum commodi obcaecati, a
-                                            hic.
-                                        </p>
+                                            The build quality is superb. There are too many settings to go into here, suffice to say that they cover picture quality, frame rate, slow motion, image stabilisation, scheduled recording, interval recording and much more.</p>
                                     </div>
                                 </div>
                             </div>
 
                             <hr class="my-0" />
 
-                            <div class="card-body p-4">
-                                <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="./img/mueble_main.jpeg"
-                                        alt="avatar" width="60" height="60" />
-                                    <div>
-                                        <h6 class="fw-bold mb-1">Betty Walker</h6>
-                                        <div class="d-flex align-items-center mb-3">
-                                            <p class="mb-0">
-                                                Mayo 30, 2021
-                                            </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
-                                        </div>
-                                        <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id
-                                            cumque quibusdam architecto consequatur alias ipsum commodi obcaecati, a
-                                            hic.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

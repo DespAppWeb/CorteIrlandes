@@ -14,6 +14,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/css/estilos.css">
     <link rel="stylesheet" href="/dpto_electronica/css/estilos.css">
+    <link rel="stylesheet" href="/dpto_electronica/css/fontawesome.min.css">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
     <div class="container-fluid">
         <header class="navbar navbar-expand-lg navbar-light custom-bg-color">
             <!-- Logo - Es un svg, no una imagen -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100"
                     height="100" viewBox="0 0 839 1025"> <!-- Cambiar tamaño aquí -->
                     <path class="cls-1"
@@ -43,7 +44,7 @@
                 <ul class="navbar-nav ml-auto">
                     <!-- Menú desplegable -->
                     <li class="nav-item dropdown d-none d-lg-block">
-                        <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="/" id="searchDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                                 class="bi bi-list" viewBox="0 0 16 16">
@@ -67,13 +68,13 @@
                             <a class="dropdown-item custom-dropdown-itemUno" href="/dpto_coches/index.html">Coches</a>
                             <!-- Otros datos de interés -->
                             <h6 class="dropdown-header">Otros datos de interés</h6>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/aboutus.html">Sobre
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Sobre
                                 Nosotros</a>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/contactus.html">Contáctanos</a>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/ayuda.html">Ayuda</a>
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Contáctanos</a>
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Ayuda</a>
                             <!-- Newsletter -->
                             <h6 class="dropdown-header">Suscríbete a nuestra newsletter</h6>
-                            <a class="dropdown-item custom-dropdown-itemUno" href="/newsletter.html">Newsletter</a>
+                            <a class="dropdown-item custom-dropdown-itemUno" href="#">Newsletter</a>
                         </div>
                     </li>
 
@@ -93,12 +94,12 @@
                         <a class="dropdown-item custom-dropdown-itemUno" href="/dpto_coches/index.html">Coches</a>
                         <!-- Otros datos de interés -->
                         <h6 class="dropdown-header">Otros datos de interés</h6>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/aboutus.html">Sobre Nosotros</a>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/contactus.html">Contáctanos</a>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/ayuda.html">Ayuda</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Sobre Nosotros</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Contáctanos</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Ayuda</a>
                         <!-- Newsletter -->
                         <h6 class="dropdown-header">Suscríbete a nuestra newsletter</h6>
-                        <a class="dropdown-item custom-dropdown-itemUno" href="/newsletter.html">Newsletter</a>
+                        <a class="dropdown-item custom-dropdown-itemUno" href="#">Newsletter</a>
                         <hr>
                     </div>
 
@@ -165,80 +166,60 @@
                             src="/dpto_electronica/images/camaras/Kodak/kodak1.jpg" />
                         <!-- Imagen principal del producto-->
                     </div>
-                    <!-- <div class="d-flex justify-content-center mb-3"> -->
                     <!-- Imagenes de producto, son las imagenes que estan debajo de la principal-->
-                    <!--
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                        <img width="60" height="60" class="rounded-2" src="./img/mueble_main.jpeg" />
-                    -->
-                    <!--El carrusel-->
-                    <div id="carouselExampleControls" class="carousel slide col-12 border-secondary"
-                        data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active col-4">
-                                <img class="d-block w-100"
-                                    src="/dpto_electronica/images/camaras/Kodak/kodak2.jpg"" alt=" First slide">
-                            </div>
-                            <div class="carousel-item col-4">
-                                <img class="d-block w-100"
-                                    src="/dpto_electronica/images/camaras/Kodak/kodak3.jpg"" alt=" Second slide">
-                            </div>
-                            <div class="carousel-item col-4">
-                                <img class="d-block w-100"
-                                    src="/dpto_electronica/images/camaras/Kodak/kodak4.jpg"" alt=" Third slide">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div> <!--fin de carrusel-->
+                    <div class="d-flex justify-content-center mb-3">
 
+                        <img width="60" height="60" class="rounded-2"
+                            src="/dpto_electronica/images/camaras/Kodak/kodak1.jpg" />
+                        <img width="60" height="60" class="rounded-2"
+                            src="/dpto_electronica/images/camaras/Kodak/kodak2.jpg" />
+                        <img width="60" height="60" class="rounded-2"
+                            src="/dpto_electronica/images/camaras/Kodak/kodak3.jpg" />
+                        <img width="60" height="60" class="rounded-2"
+                            src="/dpto_electronica/images/camaras/Kodak/kodak4.jpg" />
+                        <img width="60" height="60" class="rounded-2"
+                            src="/dpto_electronica/images/camaras/Kodak/kodak5.jpg" />
 
-                    <!-- </div> -->
+                    </div>
                 </div>
                 <!-- Nombre de producto-->
                 <main class="col-lg-6">
                     <div class="ps-lg-3">
                         <h4 class="title text-dark">
-                            Nombre producto
+                            Kodak fun saver
                         </h4>
 
                         <div class="mb-3">
-                            <span class="h5">70.00€</span>
-                            <span class="text-muted">/por objeto</span>
+                            <span class="h5">21,44€</span>
                         </div>
                         <!-- Descripcion de producto -->
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ipsum dolorem provident et
-                            quibusdam qui ad, dolorum, maxime odit placeat voluptate laborum nemo eveniet ratione
-                            cupiditate suscipit esse! Rem, labore.
+                            La cámara desechable Kodak Funsaver es una cámara de un solo uso que nos brinda la
+                            oportunidad de tener, a un bajo precio, un primer contacto con la fotografía analógica.
+                        </p>
+                        <p>
+
+                            Una de las ventajas principales de la cámara desechable Kodak Funsaver es que monta película
+                            de ISO 800 y está disponible con 39 o 27 exposiciones. Al tratarse de una cámara de un sólo
+                            uso el carrete ya se encuentra montado en la Kodak Funsaver. Sólo tendrás que preocuparte
+                            por disparar y avanzar hasta el siguiente fotograma.
 
                         </p>
                         <!-- Detalle de productos, lista-->
                         <p>Caracteristicas:</p>
 
                         <div class="row">
-                            <dt class="col-3">Tipo:</dt>
-                            <dd class="col-9">Normal</dd>
+                            <dt class="col-3">Modelo:</dt>
+                            <dd class="col-9">Funsaver</dd>
 
-                            <dt class="col-3">Color</dt>
-                            <dd class="col-9">Marron</dd>
+                            <dt class="col-3">Tipo</dt>
+                            <dd class="col-9">Cámara Desechable</dd>
 
-                            <dt class="col-3">Material</dt>
-                            <dd class="col-9">Algodon</dd>
+                            <dt class="col-3">Película</dt>
+                            <dd class="col-9">Kodak 800</dd>
 
-                            <dt class="col-3">Marca</dt>
-                            <dd class="col-9">Reebook</dd>
+                            <dt class="col-3">Fabricante</dt>
+                            <dd class="col-9">Kodak</dd>
                         </div>
 
                         <!-- Boton de cantidad, se pueden añadir 2 botones más(mb-4)-->
@@ -252,7 +233,7 @@
                                     </button>
 
                                     <input type="text" class="form-control text-center border border-secondary"
-                                        placeholder="14" aria-label="Example text with button addon"
+                                        placeholder="1" aria-label="Example text with button addon"
                                         aria-describedby="button-addon1" />
                                     <button class="btn btn-white border border-secondary px-3 btn-cantidadmas"
                                         type="button" id="button-addon2">
@@ -284,11 +265,7 @@
                         <img src="/dpto_electronica/images/camaras/GoPro/go_pro1.jpg" alt="goPro" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-lg-2 col-md-3 col-xs-4">
-                    <a class="thumbnail" href="/dpto_electronica/camaras/kodak.html">
-                        <img src="/dpto_electronica/images/camaras/Kodak/kodak1.jpg" alt="Kodak" class="img-fluid">
-                    </a>
-                </div>
+
                 <div class="col-lg-2 col-md-3 col-xs-4 ">
                     <a class="thumbnail" href="/dpto_electronica/camaras/nikon.html">
                         <img src="/dpto_electronica/images/camaras/nikon/nikon1.jpg" alt="nikon" class="img-fluid">
@@ -316,23 +293,21 @@
                         <div class="card text-dark">
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="./img/mueble_main.jpeg"
-                                        alt="avatar" width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3"
+                                        src="/dpto_electronica/images/fig_coments.png" alt="avatar" width="60"
+                                        height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Maggie Marsh</h6>
                                         <div class="d-flex align-items-center mb-3">
                                             <p class="mb-0">
                                                 Mayo 07, 2021
                                             </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id cumque
-                                            quibusdam architecto consequatur alias ipsum commodi obcaecati, a hic.
-                                        </p>
+                                            Está bastante bien tal como la imagen </p>
                                     </div>
                                 </div>
                             </div>
@@ -341,22 +316,22 @@
 
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="./img/mueble_main.jpeg"
-                                        alt="avatar" width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3"
+                                        src="/dpto_electronica/images/fig_coments.png" alt="avatar" width="60"
+                                        height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Lara Stewart</h6>
                                         <div class="d-flex align-items-center mb-3">
+                                          
                                             <p class="mb-0">
                                                 Mayo 15, 2021
                                             </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="text-success"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-danger"><i class="fas fa-heart ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                            <a href="#" class="link-danger"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id cumque
-                                            quibusdam architecto consequatur alias ipsum commodi obcaecati, a hic.
+                                            Buena cámara. Ideal para viajes y eventos que quieras recordar.
                                         </p>
                                     </div>
                                 </div>
@@ -366,23 +341,23 @@
 
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="./img/mueble_main.jpeg"
-                                        alt="avatar" width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3"
+                                        src="/dpto_electronica/images/fig_coments.png" alt="avatar" width="60"
+                                        height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Alexa Bennett</h6>
                                         <div class="d-flex align-items-center mb-3">
                                             <p class="mb-0">
                                                 Mayo 24, 2021
                                             </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id
-                                            cumque quibusdam architecto consequatur alias ipsum commodi obcaecati, a
-                                            hic.
+                                            Una cámara fácil de llevar y que cumple su función. Además a la hora de
+                                            revelar se ven de muy buena calidad. Recomendable.
+
                                         </p>
                                     </div>
                                 </div>
@@ -392,23 +367,23 @@
 
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="./img/mueble_main.jpeg"
-                                        alt="avatar" width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3"
+                                        src="/dpto_electronica/images/fig_coments.png" alt="avatar" width="60"
+                                        height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Betty Walker</h6>
                                         <div class="d-flex align-items-center mb-3">
                                             <p class="mb-0">
                                                 Mayo 30, 2021
                                             </p>
-                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-                                            <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                            <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
-                                            cumque ipsum nostrum minima alias ullam? Voluptatum, quasi! Qui id
-                                            cumque quibusdam architecto consequatur alias ipsum commodi obcaecati, a
-                                            hic.
+                                            Mi chico y yo lo cogimos por un reto de parejas y la verdad es que la cámara
+                                            funcionaba muy bien. Lo único que no nos aclarábamos mucho con el flash. Al
+                                            revelar las fotos se veían todas perfectamente, así que ni tan mal😁
                                         </p>
                                     </div>
                                 </div>
