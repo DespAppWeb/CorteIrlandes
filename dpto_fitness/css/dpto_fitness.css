@@ -1,0 +1,20 @@
+main.main_departamento_seccion>main.departamento_seccion>a>article>div>div{
+    text-align: center;
+}
+
+main.main_departamento_seccion>main.departamento_seccion>a>article>div>div.precio{
+    color: rgb(204, 109, 48);
+    font-size: 25px;
+}
+
+main.main_departamento_seccion>main.departamento_seccion>a>article>div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p.text-center>a.ci_btn_seccion:hover{
+    background-color: rgba(140, 65, 0,0.5);
+}
+main.main_departamento_seccion>main.departamento_seccion>a{
+    display: flex;
+}
