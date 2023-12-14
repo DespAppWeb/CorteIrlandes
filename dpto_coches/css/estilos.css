@@ -606,7 +606,10 @@ section.departamento_seccion_paginacion {
   min-width: 100%;
   height: 15rem;
 }
-
+.breadcrumb a {
+  text-decoration: none;
+  color: black;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
