@@ -39,7 +39,7 @@ main.departamento_seccion > a {
 main.departamento_seccion > a > article > .datos-productos >.precio {
     margin-top: 20px;
     color: #d27300;
-    font-weight: 700;
+    font-weight: 500;
     font-size:x-large
 }
 
@@ -61,4 +61,14 @@ main.departamento_seccion > a > article > .datos-productos >.precio {
 }
 .boton-cantidadmas:hover{
     box-shadow: 0px 0px 10px #444;
+}
+
+.h5{
+    color: #d27300;
+    font-size:xx-large;
+}
+
+main.departamento_seccion > a > article > .datos-productos >.modelo {
+    font-size:x-large;
+    font-weight: 500;
 }
