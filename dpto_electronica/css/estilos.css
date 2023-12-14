@@ -10,6 +10,10 @@ ol.breadcrumb li.breadcrumb-item a{
 a:link{
     color: #d27300;
 }
+
+.ci_text_principal .ci_btn_seccion {
+    color: white !important;
+}
 .departamento_seccion article{
     padding: 25px;
     box-sizing: border-box;
