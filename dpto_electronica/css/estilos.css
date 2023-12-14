@@ -11,7 +11,7 @@ a:link, .link-muted{
     color: #d27300;
 }
 
-a:link:hover, link-muted:hover{
+a:link:hover, .link-muted:hover{
     color: #ffa333
 }
 
