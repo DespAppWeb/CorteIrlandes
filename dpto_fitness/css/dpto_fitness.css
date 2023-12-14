@@ -15,3 +15,6 @@ main.main_departamento_seccion>main.departamento_seccion>a>article>div{
 p.text-center>a.ci_btn_seccion:hover{
     background-color: rgba(140, 65, 0,0.5);
 }
+main.main_departamento_seccion>main.departamento_seccion>a{
+    display: flex;
+}
