@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 { 
+    color: black;
+    margin-right: 50px;
+    font-weight: bold;
+    letter-spacing: -1px; 
+}
+
+/* Estilos nav-bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #E0E0DB;
+}
+
+.nav-item {
+    margin: 8px;
+}
+
+/* Fondo Nav-bar */
+.custom-bg-color {
+    background-color: #FFBB6A;
+}
+
+/* Estilos Logo */
+.navbar-brand {
+    display: inline-block;
+    transition: transform 0.3s;
+    /* Transición */
+}
+
+/* Hover/Animación Logo */
+.navbar-brand:hover {
+    transform: scale(1.2);
+    /* Redimensiona el logo al hacer hover */
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link i:hover {
+    color: #ffffff;
+}
+
+/* Estilos Dropdown (Global) */
+.dropdown-header {
+    color: black;
+    font-weight: bold;
+
+}
+
+/* Pseudoclases para los link de Dropdown (Resoluciones grandes o PC) */
+.custom-dropdown-itemUno:focus,
+.custom-dropdown-itemUno:active,
+.custom-dropdown-itemUno:visited {
+    background-color: #FFBB6A;
+    color: black;
+}
+
+/* Pseudoclases para los link de Dropdown (Resoluciones medianas y móvil) */
+.custom-dropdown-itemDos:focus,
+.custom-dropdown-itemDos:active,
+.custom-dropdown-itemDos:visited {
+    background-color: #FFD29B;
+    color: black;
+}
+
+.menu-item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Migas de pan */
+.breadcrumb {
+    background-color: #FFE8CE;
+    font-size: small;
+}
