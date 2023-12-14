@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/css/estilos.css">
-        <link rel="stylesheet" href="/dpto_electronica/css/estilos.css">
+    <link rel="stylesheet" href="/dpto_electronica/css/estilos.css">
     <link rel="stylesheet" href="/dpto_electronica/css/fontawesome.min.css">
 </head>
 
@@ -166,16 +166,126 @@
                             src="../images/camaras/nikon/nikon1.jpg" />
                         <!-- Imagen principal del producto-->
                     </div>
+
+                    <!-- carrusel -->
                     <div class="d-flex justify-content-center mb-3">
-                        <!-- Imagenes de producto, son las imagenes que est/dpto_electronica/images/fig_coments.pngpal-->
-                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/nikon/nikon2.jpg" />
-                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/nikon/nikon3.jpg" />
-                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/nikon/nikon4.jpg" />
-                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/nikon/nikon5.jpg" />
-                        <img width="60" height="60" class="rounded-2" src="/dpto_electronica/images/camaras/nikon/nikon6.jpg" />
+                        <!--Start Controls-->
+                        <div class="col-1 align-self-center">
+                            <a href="#multi-item-example" role="button" data-bs-slide="prev">
+                                <i class="text-dark fas fa-chevron-left"></i>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </div>
+                        <!--End Controls-->
+
+                        <!--Start Carousel Wrapper-->
+                        <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item"
+                            data-bs-ride="carousel">
+                            <!--Start Slides-->
+                            <div class="carousel-inner product-links-wap" role="listbox">
+
+                                <!--First slide-->
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="img-fluid"
+                                                    src="/dpto_electronica/images/camaras/nikon/nikon1.jpg "
+                                                    alt="DJI Mini 4 Pro">
+                                            </a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="img-fluid"
+                                                    src="/dpto_electronica/images/camaras/nikon/nikon2.jpg"
+                                                    alt="DJI Mini 4 Pro">
+                                            </a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="img-fluid"
+                                                    src="/dpto_electronica/images/camaras/nikon/nikon3.jpg"
+                                                    alt="DJI Mini 4 Pro">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/.First slide-->
+
+                                <!--Second slide-->
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="img-fluid"
+                                                    src="/dpto_electronica/images/camaras"
+                                                    alt="DJI Mini 4 Pro">
+                                            </a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="img-fluid"
+                                                    src="/dpto_electronica/images/camaras/nikon/dji-air-3-mando.jpg"
+                                                    alt="DJI Mini 4 Pro">
+                                            </a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="img-fluid"
+                                                    src="/dpto_electronica/images/camaras/nikon/dji-air-3-obl-2.jpg"
+                                                    alt="DJI Mini 4 Pro">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/.Second slide-->
+
+                                <!--Third slide-->
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="img-fluid"
+                                                    src="/dpto_electronica/images/camaras/nikon/dji-air-3-obl.jpg"
+                                                    alt="DJI Mini 4 Pro">
+                                            </a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="img-fluid"
+                                                    src="/dpto_electronica/images/camaras/nikon/dji-air-3-pack-comp.jpg"
+                                                    alt="DJI Mini 4 Pro">
+                                            </a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="img-fluid"
+                                                    src="/dpto_electronica/images/camaras/nikon/dji-air-3-top.jpg"
+                                                    alt="DJI Mini 4 Pro">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/.Third slide-->
+                            </div>
+                            <!--End Slides-->
+                        </div>
+                        <!--End Carousel Wrapper-->
+                        <!--Start Controls-->
+                        <div class="col-1 align-self-center">
+                            <a href="#multi-item-example" role="button" data-bs-slide="next">
+                                <i class="text-dark fas fa-chevron-right"></i>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!--End Controls-->
 
 
                     </div>
+                    <!-- fin carrusel -->
+
+
+
                 </div>
                 <!-- Nombre de producto-->
                 <main class="col-lg-6">
@@ -193,8 +303,8 @@
                             La Z fc combina el diseño clásico de las cámaras Nikon con la innovadora tecnología de la
                             serie Z para obtener una calidad de imagen excepcional y un estilo puro y sin artificios.
                         </p>
-                           <p>
-                            
+                        <p>
+
                             Puede fotografiar cualquier cosa y en cualquier lugar, desde imágenes estáticas hasta vídeos
                             y vlogs. Impulse su creatividad hacia el futuro con la cámara mirrorless de formato DX
                             ligera que pone en sus manos la capacidad de capturar lo emblemático.
@@ -254,7 +364,7 @@
 
                 <div class="col-lg-2 col-md-3 col-xs-4 ">
                     <a class="thumbnail" href="/dpto_electronica/camaras/canon.html">
-                        <img src="/dpto_electronica/images/camaras/Canon/Canon1.jpg" alt="Canon" class="img-fluid">
+                        <img src="/dpto_electronica/images/camaras/nikon/nikon1.jpg" alt="Canon" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-lg-2 col-md-3 col-xs-4">
@@ -267,7 +377,7 @@
                         <img src="/dpto_electronica/images/camaras/Kodak/kodak1.jpg" alt="Kodak" class="img-fluid">
                     </a>
                 </div>
-              
+
                 <div class="col-lg-2 col-md-3 col-xs-4">
                     <a class="thumbnail" href="/dpto_electronica/camaras/fuji.html">
                         <img src="/dpto_electronica/images/camaras/Fujifilm/fuji_instax1.jpg" alt="" class="img-fluid">
@@ -290,8 +400,9 @@
                         <div class="card text-dark">
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="/dpto_electronica/images/fig_coments.png"
-                                        alt="avatar" width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3"
+                                        src="/dpto_electronica/images/fig_coments.png" alt="avatar" width="60"
+                                        height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Maggie Marsh</h6>
                                         <div class="d-flex align-items-center mb-3">
@@ -303,7 +414,8 @@
                                             <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            La calidad de fotos muy buena. Su estética mejor. La tapa de la batería y tarjeta impropia de esta cámara por su debilidad     </p>
+                                            La calidad de fotos muy buena. Su estética mejor. La tapa de la batería y
+                                            tarjeta impropia de esta cámara por su debilidad </p>
                                     </div>
                                 </div>
                             </div>
@@ -312,8 +424,9 @@
 
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="/dpto_electronica/images/fig_coments.png"
-                                        alt="avatar" width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3"
+                                        src="/dpto_electronica/images/fig_coments.png" alt="avatar" width="60"
+                                        height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Lara Stewart</h6>
                                         <div class="d-flex align-items-center mb-3">
@@ -325,7 +438,12 @@
                                             <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Esta es una nueva cámara DX (APS-C) sin espejo de Nikon (creo que se lanzó en el Reino Unido hace 5 días) y parece que soy la primera persona en opinar sobre ella en Amazon. Solo he tenido la cámara durante unas horas y no he tenido la oportunidad de probarla realmente, excepto algunas tomas de prueba rápidas y sencillas que muestran que el EVF es excelente, el enfoque automático es bueno y la reducción de vibraciones es muy buena.
+                                            Esta es una nueva cámara DX (APS-C) sin espejo de Nikon (creo que se lanzó
+                                            en el Reino Unido hace 5 días) y parece que soy la primera persona en opinar
+                                            sobre ella en Amazon. Solo he tenido la cámara durante unas horas y no he
+                                            tenido la oportunidad de probarla realmente, excepto algunas tomas de prueba
+                                            rápidas y sencillas que muestran que el EVF es excelente, el enfoque
+                                            automático es bueno y la reducción de vibraciones es muy buena.
                                         </p>
                                     </div>
                                 </div>
@@ -335,8 +453,9 @@
 
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="/dpto_electronica/images/fig_coments.png"
-                                        alt="avatar" width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3"
+                                        src="/dpto_electronica/images/fig_coments.png" alt="avatar" width="60"
+                                        height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1">Alexa Bennett</h6>
                                         <div class="d-flex align-items-center mb-3">
@@ -348,9 +467,11 @@
                                             <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Llevaba mucho tiempo pensando en comprar la NIKON Z fc, porque hasta ahora siempre he hecho fotos con Olympus y Panasonic.
+                                            Llevaba mucho tiempo pensando en comprar la NIKON Z fc, porque hasta ahora
+                                            siempre he hecho fotos con Olympus y Panasonic.
                                             Así que es la primera NIKON que tengo.
-                                            Cuando se presentó la cámara hace unos dos años, me enamoré del dispositivo de inmediato, pero no estaba seguro de comprarlo.
+                                            Cuando se presentó la cámara hace unos dos años, me enamoré del dispositivo
+                                            de inmediato, pero no estaba seguro de comprarlo.
                                         </p>
                                     </div>
                                 </div>
@@ -360,8 +481,9 @@
 
                             <div class="card-body p-4">
                                 <div class="d-flex flex-start">
-                                    <img class="rounded-circle shadow-1-strong me-3" src="/dpto_electronica/images/fig_coments.png"
-                                        alt="avatar" width="60" height="60" />
+                                    <img class="rounded-circle shadow-1-strong me-3"
+                                        src="/dpto_electronica/images/fig_coments.png" alt="avatar" width="60"
+                                        height="60" />
                                     <div>
                                         <h6 class="fw-bold mb-1"> Walker</h6>
                                         <div class="d-flex align-items-center mb-3">
@@ -373,7 +495,9 @@
                                             <a href="#" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                                         </div>
                                         <p class="mb-0">
-                                            Lo compré por su rendimiento, pero también por su proximidad a las cámaras de cine. ¡Hace el trabajo muy, muy bien! Es liviano, práctico de transportar, te permite hacer excelentes vlogs e imágenes hermosas.
+                                            Lo compré por su rendimiento, pero también por su proximidad a las cámaras
+                                            de cine. ¡Hace el trabajo muy, muy bien! Es liviano, práctico de
+                                            transportar, te permite hacer excelentes vlogs e imágenes hermosas.
                                             Lo recomiendo al 100%
                                         </p>
                                     </div>
@@ -390,7 +514,7 @@
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 border-top">
             <!--SI QUIERES PONER un margin arriba del footer es solo poner (mt-5) al final de la clase-->
             <div class="ci_footer1">
-                <h5>SOPORTE:</h5>   
+                <h5>SOPORTE:</h5>
                 <ul class="nav flex-column">
                     <div id="ci_CONTACTO">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">CONTACTO</a></li>
