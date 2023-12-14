@@ -7,8 +7,12 @@ ol.breadcrumb li.breadcrumb-item a{
     color: #d27300;
 }
 
-a:link{
+a:link, .link-muted{
     color: #d27300;
+}
+
+a:link:hover, link-muted:hover{
+    color: #ffa333
 }
 
 .ci_text_principal .ci_btn_seccion {
